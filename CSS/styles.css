@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.logo-header{
+    width: 10%;
+}
+.nav-links{
+    width: 40%;
+
+}
+.nav-links ul{
+    display: block;
+
+}
+.nav-links ul li{
+    display: flex;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.button{
+    align-items: right;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../assets/smartworking_1920x1280-1680x700.jpg);
+    position: absolute;
+    overflow: hidden;
+}
+.form_1{
+    background: red;
+    align-content:center;
+    height: 200px;
+    width: 50%;
+}
+.form_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    
+    width: 50%;
+}
+.subcribe{
+    background: grey;
+    height: 200px;
+    will-change: 40%;
+}
