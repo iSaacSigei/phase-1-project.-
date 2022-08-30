@@ -1,4 +1,4 @@
-# phase-1-project.-
+# phase-1-project.-Online Hotel Booking for cheap Hotels
 # Portfolio
 
 ##### By Sigei Isack 
