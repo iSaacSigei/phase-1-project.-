@@ -30,8 +30,35 @@ nav{
     padding-left: 40px;
     padding-right: 40px;
 }
-.button{
+.nav-links ul li{
+    list-style: none;
+    box-sizing: border-box;
+    /* border: 1px solid ; */
+}
+.nav-links ul li a{
+text-decoration: none;
+
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+#btn{
     align-items: right;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    box-shadow: rgb(243, 243, 243);
 }
 .container{
     display: flex;
@@ -39,7 +66,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     background-image: url(../assets/smartworking_1920x1280-1680x700.jpg);
     position: absolute;
     overflow: hidden;
@@ -50,16 +77,60 @@ nav{
     height: 200px;
     width: 50%;
 }
+.search-hotel{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.customer_ratings{
+    padding-top: 18px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    background: grey;
+    width: 40%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.customer_ratings:hover{
+    background: #ffff;
+
+}
+
 .form_2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 200px;
-    
     width: 50%;
+    
+}
+.comments{
+    padding-top: 18px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    background: grey;
+    width: 40%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.comment-form{
+    margin: auto;
+}
+.comments:hover{
+    background: #ffff;
 }
 .subcribe{
-    background: grey;
+    background: rgb(187, 187, 187);
     height: 200px;
-    will-change: 40%;
+    width: 40%;
+    align-items: center;
+}
+.subscribe_header{
+    padding-top: 18px;
+    text-align: center;
+}
+.subcribe_section{
+    padding-top: 30px;
+    align-content: center;
+    padding-left: 100px;
 }
