@@ -34,7 +34,7 @@
                 </ul>
             </div>
             <div class="button">
-                <button> Get Started</button>
+                <button id="btn"> Get Started</button>
             </div>
         </nav>
     </header>
@@ -42,6 +42,9 @@
         <div class="form_1">
             <form action="" class="search-hotel">
                 <input type="text" name="location" id="search_hotel" placeholder="Enter Location">
+                <ul id="hotel_data">
+                    
+                </ul>
                 <input type="submit" name="Oder" id="book_hotel" value="BOOK NOW">
             </form>
         </div>
@@ -68,8 +71,8 @@
 
         </div>
         <div class="subcribe">
-            <h3>Subcribe to Our Newsletter</h3>
-            <form action="" class="subcribe_section">
+            <h3 class="subscribe_header">Subcribe to Our Newsletter</h3>
+            <form action="" class="subcribe_section" method="POST">
                 <input type="text" id="newsletter_subscibe" placeholder="Enter Your email">
                 <input type="submit" value="Subscribe">
             </form>
