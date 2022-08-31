@@ -1,6 +1,5 @@
 {
-    "City":{
-        "Nairobi": [
+    "Nairobi": [
         {
             "hotelName": "Villa villa",
             "location": "Westlands",
@@ -21,35 +20,35 @@
             "hotelName": "Kibandaski",
             "location": "Down Town",
             "price":"1500",
-            "beds":"1",
+            "beds":"2",
             "id": 1
         },
         {
-            "hotelName": "Gunnar",
-            "location": "American Shorthair",
+            "hotelName": "Samaki Gates",
+            "location": "Kendu Bay",
             "price":"4500",
             "beds":"1",
             "id": 2
         }
         ],
-        "Eldoret": [
+        "Nakuru": [
         {
-            "hotelName": "",
-            "location": "",
+            "hotelName": "Blue Ivy Hotel",
+            "location": "Menengai",
             "price":"4500",
             "beds":"1",
             "id": 1
         },
         {
-            "hotelName": "",
-            "location": "",
+            "hotelName": "Ibis park",
+            "location": "Lake Nakuru",
             "price":"4500",
             "beds":"1",
             "id": 2
         },
         {
-            "hotelName": " isaac",
-            "location": "",
+            "hotelName": " Berryly Hotel",
+            "location": "CDB",
             "price":"4500",
             "beds":"1",
             "id": 3
@@ -57,12 +56,26 @@
         ],
         "Mombasa": [
         {
-            "hotelName": "C8-09S100K",
-            "location": "Human Assistant",
+            "hotelName": "Hill crest",
+            "location": "Nyali Beach",
             "price":"6000",
             "beds":"1",
-            "id": 9000
+            "id": 1
+        },
+        {
+            "hotelName": "Beach View Hotel",
+            "location": "Baobab",
+            "price":"7000",
+            "beds":"1",
+            "id": 2
+
+        },
+        {
+            "hotelName": "English Point",
+            "location": "Voi",
+            "price":"6000",
+            "beds":"1",
+            "id": 3
         }
         ]
     }
-  }
