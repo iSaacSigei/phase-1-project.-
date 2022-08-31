@@ -39,14 +39,23 @@
         </nav>
     </header>
     <div class="container">
-        <div class="form_1">
-            <form action="" class="search-hotel">
-                <input type="text" name="location" id="search_hotel" placeholder="Enter Location">
-                <ul id="hotel_data">
-                    
-                </ul>
-                <input type="submit" name="Oder" id="book_hotel" value="BOOK NOW">
-            </form>
+        <div class="form_fetchData">
+            <div class="form_1">
+                <form id="search_hotel" action="" method="POST">
+                    <label for="cities">Select your Location:</label>
+                    <select id="city" name="cities">
+                        <option value="Nairobi">Nairobi</option>
+                        <option value="Kisumu">Kisumu</option>
+                        <option value="Nakuru">Nakuru</option>
+                        <option value="Mombasa">Mombasa</option>
+                    </select>
+                    <input type="submit">
+                </form>
+            </div>
+            <div class="dataFetch">
+
+
+            </div>
         </div>
         <div class="form_2">
             <div class="comments">
@@ -74,10 +83,12 @@
             <h3 class="subscribe_header">Subcribe to Our Newsletter</h3>
             <form action="" class="subcribe_section" method="POST">
                 <input type="text" id="newsletter_subscibe" placeholder="Enter Your email">
-                <input type="submit" value="Subscribe">
+                <input id="newsletter_subscibe" type="submit" value="Subscribe">
             </form>
         </div>
+
     </div>
+    <script src="./JS/main.js"></script>
 
 </body>
 
