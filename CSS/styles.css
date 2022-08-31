@@ -1,7 +1,16 @@
 *{
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
     font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../assets/smartworking_1920x1280-1680x700.jpg");
+    /* position: absolute; */
+    background-repeat:no-repeat ;
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 nav{
     display: flex;
@@ -65,11 +74,7 @@ text-decoration: none;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
-    height: 85vh;
-    background-image: url(../assets/smartworking_1920x1280-1680x700.jpg);
-    position: absolute;
-    overflow: hidden;
+   
 }
 .form_1{
     background: red;
@@ -102,6 +107,8 @@ text-decoration: none;
     justify-content: space-between;
     height: 200px;
     width: 50%;
+    padding:0px
+
     
 }
 .comments{
