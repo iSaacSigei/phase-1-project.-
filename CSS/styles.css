@@ -70,17 +70,20 @@ text-decoration: none;
     box-shadow: rgb(243, 243, 243);
 }
 .container{
+    height: 88%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
    
 }
-.form_1{
+.form_fetchData{
+    display: flex;
+    flex-direction: column;
     background: red;
     align-content:center;
-    height: 200px;
-    width: 50%;
+    height: 250px;
+    width: 60%;
 }
 .search-hotel{
     padding-top: 18px;
@@ -106,8 +109,8 @@ text-decoration: none;
     flex-direction: row;
     justify-content: space-between;
     height: 200px;
-    width: 50%;
-    padding:0px
+    width: 60%;
+    padding:20px
 
     
 }
@@ -127,17 +130,23 @@ text-decoration: none;
     background: #ffff;
 }
 .subcribe{
+    /* align-items: flex-end; */
+    display: flex;
+    flex-direction: column;
     background: rgb(187, 187, 187);
-    height: 180px;
-    width: 40%;
+    height: 150px;
+    width: 100%;
     align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
 }
 .subscribe_header{
-    padding-top: 18px;
+    padding-top: 5px;
     text-align: center;
 }
 .subcribe_section{
-    padding-top: 30px;
-    align-content: center;
-    padding-left: 100px;
+    margin: auto;
+}
+#newsletter_subscibe{
+    height: 30px;
 }
