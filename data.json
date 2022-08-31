@@ -1,0 +1,68 @@
+{
+    "City":{
+        "Nairobi": [
+        {
+            "hotelName": "Villa villa",
+            "location": "Westlands",
+            "price":"4500",
+            "beds":"1",
+            "id": 1
+        },
+        {
+            "hotelName": "Famous gates",
+            "location": "Giant Schnauzer",
+            "price":"2500",
+            "beds":"1",
+            "id": 2
+        }
+        ],
+        "Kisumu": [
+        {
+            "hotelName": "Kibandaski",
+            "location": "Down Town",
+            "price":"1500",
+            "beds":"1",
+            "id": 1
+        },
+        {
+            "hotelName": "Gunnar",
+            "location": "American Shorthair",
+            "price":"4500",
+            "beds":"1",
+            "id": 2
+        }
+        ],
+        "Eldoret": [
+        {
+            "hotelName": "",
+            "location": "",
+            "price":"4500",
+            "beds":"1",
+            "id": 1
+        },
+        {
+            "hotelName": "",
+            "location": "",
+            "price":"4500",
+            "beds":"1",
+            "id": 2
+        },
+        {
+            "hotelName": " isaac",
+            "location": "",
+            "price":"4500",
+            "beds":"1",
+            "id": 3
+        }
+        ],
+        "Mombasa": [
+        {
+            "hotelName": "C8-09S100K",
+            "location": "Human Assistant",
+            "price":"6000",
+            "beds":"1",
+            "id": 9000
+        }
+        ]
+    }
+  }
