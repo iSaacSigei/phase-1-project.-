@@ -6,11 +6,11 @@
 body{
     background-image: url("../assets/smartworking_1920x1280-1680x700.jpg");
     /* position: absolute; */
-    background-repeat:no-repeat ;
-    background-size:cover;
+    background-repeat:repeat ;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 nav{
     display: flex;
@@ -82,8 +82,19 @@ text-decoration: none;
     flex-direction: column;
     background: red;
     align-content:center;
-    height: 250px;
+    height: auto;
     width: 60%;
+    padding: 75px;
+}
+#dataFetch > h4{
+    color: black;
+    padding-bottom: 0px;
+}
+h4 > h6{
+    padding-top: 0px;
+    margin: 0px;
+    font-size: 15px;
+    color: white;
 }
 .search-hotel{
     padding-top: 18px;
