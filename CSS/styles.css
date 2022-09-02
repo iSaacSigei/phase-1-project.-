@@ -84,7 +84,7 @@ text-decoration: none;
     align-content:center;
     height: auto;
     width: 60%;
-    padding: 75px;
+    padding: 25px;
 }
 #dataFetch > h4{
     color: black;
@@ -97,7 +97,7 @@ h4 > h6{
     color: white;
 }
 .search-hotel{
-    padding-top: 18px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
@@ -110,6 +110,7 @@ h4 > h6{
     cursor: pointer;
     border-radius: 8px;
 }
+
 .customer_ratings:hover{
     background: #ffff;
 
@@ -119,15 +120,15 @@ h4 > h6{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 200px;
     width: 60%;
+    height: 200px;
     padding:20px
 
     
 }
 .comments{
     padding-top: 18px;
-    padding-left: 10px;
+    padding-left: 17px;
     border: 1px solid grey;
     background: grey;
     width: 40%;
