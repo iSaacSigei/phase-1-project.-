@@ -10,13 +10,15 @@ body{
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: auto;
+    width: auto;
 }
 .logo img{
     height: 100px;
@@ -61,6 +63,9 @@ text-decoration: none;
 .nav-links ul li:hover::after{
     width: 100%;
 }
+.buttons:hover{
+    background: #f44336;
+}
 #btn{
     align-items: right;
     cursor: pointer;
@@ -86,6 +91,9 @@ text-decoration: none;
     width: 60%;
     padding: 25px;
 }
+.form_1{
+    width: fit-content;
+}
 #dataFetch > h4{
     color: black;
     padding-bottom: 0px;
@@ -106,6 +114,7 @@ h4 > h6{
     padding-left: 10px;
     border: 1px solid grey;
     background: grey;
+    height: auto;
     width: 40%;
     cursor: pointer;
     border-radius: 8px;
@@ -128,7 +137,7 @@ h4 > h6{
 }
 .comments{
     padding-top: 18px;
-    padding-left: 17px;
+    padding: 17px;
     border: 1px solid grey;
     background: grey;
     width: 40%;
@@ -137,6 +146,10 @@ h4 > h6{
 }
 .comment-form{
     margin: auto;
+    /* width: auto; */
+}
+#comment_input{
+    width: fit-content;
 }
 .comments:hover{
     background: #ffff;
