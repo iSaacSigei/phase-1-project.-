@@ -33,7 +33,7 @@ location</p>
 * HTML - which was used to build the structure of the pages.
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
-*JavaScript- use to enhance the interectiveness of the webpages
+* JavaScript- use to enhance the interectiveness of the webpages
 
 ## Reference
 * Materialize CSS
